@@ -1,0 +1,123 @@
+header{
+	background: #000000 url('../images/flywheel.jpg') no-repeat;
+	background-size: cover;
+	padding: 5%;
+	color: #ffffff;
+}
+h1{
+	color: #ffffff;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+	font-size: 200%;
+}
+h2{
+	color: #000000;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	margin: 0%;
+	padding-top: 1%;
+	font-size: 150%;
+}
+body{
+	padding: 0% 1%;
+	margin: 0% 1%;
+	font-family: Helvetica;
+}
+section{
+	margin-left: 20px;
+}
+main{
+	margin: 0%;
+	padding: 0%;
+}
+img{
+		border: 1px solid black;
+		width: 80%;
+		margin: 15%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+a{
+	color: #000000;
+	text-align: center;
+}
+nav{
+	font-style: normal;
+	text-align: center;
+	/*background-color: #14a37f;*/
+	font-size: 100%;
+	font-family: Helvetica;
+}
+nav a{
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	width:20%;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	margin: 1%;
+	padding: 1%;
+	text-decoration: none;
+	color: #000000;
+}
+.active{
+	background-color: rgba(255, 255, 255, 1);
+}
+.left{
+	background-color: #808000;
+	float: left;
+	width: 18%;
+	padding-bottom: 10%;
+}
+.right{
+	padding-left: 18%;
+}
+table{
+	font-family: Helvetica, Calibri, Catholic;
+	font-size: 100%;
+	font-weight: lighter;
+	line-height: 2;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr{
+	opacity: 0.8;
+	text-align: center;
+}
+tr:hover{
+	opacity: 1;
+}
+tr:first-child{
+	opacity: 1;
+}
+th{
+	background: #14a37f;
+	background: -moz-linear-gradient(bottom, #00695f 0%,#14a37f 100%);
+	background: -webkit-linear-gradient(#00695f 0%,#14a37f 100%);
+	background: -o-linear-gradient(#00695f 0%,#14a37f 100%);
+	background: linear-gradient(#00695f 0%,#14a37f 100%);
+	color: #ffffff;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #00695f;
+	border-bottom-width: thin;
+	padding: 0% 1%;
+}
+th:first-child{
+	text-align: left;
+}
+td{
+	padding: 0% 1%;
+	border-radius: 2px;
+	background-color: #14a37f;
+	color: #000000;
+}
+td:first-child{
+	text-align: left;
+}
