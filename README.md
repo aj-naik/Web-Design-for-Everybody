@@ -1,2 +1,2 @@
 # Web-Design-for-Everybody
-My solutions for Web Design for Everybody Specialization by UMich (June 2020)
+Slutions to programming assignments of 'Web Design for Everybody' Specialization by University of Michigan (June 2020)
